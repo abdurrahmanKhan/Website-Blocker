@@ -25,9 +25,9 @@ Step 2 : Add the sites which you want to block in the list given in the code.
 
 Step 3 : Getting the original hosts file in windows --> An example is shown :  "C:\Windows\System32\drivers\etc\hosts"
 
-Step 3 : Run the code to test if it's working or not.
+Step 4 : Run the code to test if it's working or not.
 
-Step 4 : Now to work with this is in Windows as a background process, you need to do some work.
+Step 5 : Now to work with this is in Windows as a background process, you need to do some work.
 
 -------------------------------
 Running as a background process
@@ -39,8 +39,10 @@ Step 1 :  Go to START and search for "TASK SCHEDULER" , find and click on "CREAT
            pannel
            
 Stepc 2 : Click on the "Begin the task" dropdown button and select "At startup". Then move to Actions pannel.
+
 Step 3 : Add a new "Action" and then in "Action" select "Start a new program" and add the file path to your python script. And then 
          click OK and move to "Conditions" pannel.
+         
 Step 4 : In "Conditions" pannel uncheck the "Stop if the battery switches to battery power" option and you are good to go.
 
 I'm attaching the screenshots to work throught the scheduling task process in windows.

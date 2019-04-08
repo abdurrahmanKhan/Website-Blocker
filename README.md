@@ -4,7 +4,7 @@ This is something I made for myself back when I was just starting to get on with
 
 This chunk of code is not more than 30 lines and it saved my day many times. 
 "WEBSITE BLOCKER" is a peice of code that I wrote to stop some sites to work during the specified time and automatically after the time limit these sites are accesible.
-What it does is it just adds few sites that you want to block and prohibit access to for the time limit you want, and after that time these sites are automatically removed from the list and you can access them afte the time limit passed. And the best part is, this chunk of code runs in background as a windows process, on startup it automatically triggers.
+What it does is it just adds few sites that you want to block and prohibit access to for the time limit you want, and after that time these sites are automatically removed from the list and you can access them after the time limit passed. And the best part is, this chunk of code runs in background as a windows process, on startup it automatically triggers.
 Thats it!!
 But as it sounds so easy, doing it took a special trick, if you go through the code you can see a neat trick that is pulled here.
 
@@ -36,7 +36,7 @@ Firstly, you need to rename the format of your python script to ".pyw", then you
 
 Step 1 :  Go to START and search for "TASK SCHEDULER" , find and click on "CREATE TASK" you will get a popup and then in GENERAL 
           section type the name you want to give to your task and Check the "RUN WITH HIGHEST PRIVILEGES" box, then move to Trigger
-           pannel
+           pannel.
            
 Stepc 2 : Click on the "Begin the task" dropdown button and select "At startup". Then move to Actions pannel.
 

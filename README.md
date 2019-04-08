@@ -1,6 +1,6 @@
 # Website-Blocker
 
-This is something I made for myself back when I was just starting to getting on with my computer path in life and at times even today I use this if I have to concenterate or work without any deviations in my work. I wanted to built something for myself which will help me save my time and stay focused on better things.
+This is something I made for myself back when I was just starting to get on with my computer path in life and at times even today I use this if I have to concenterate on any task without any deviations in my work. I wanted to built something for myself which will help me save my time and stay focused on better things.
 
 This chunk of code is not more than 30 lines and it saved my day many times. 
 "WEBSITE BLOCKER" is a peice of code that I wrote to stop some sites to work during the specified time and automatically after the time limit these sites are accesible.

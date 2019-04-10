@@ -3,12 +3,12 @@
 This is something I made for myself back when I was just starting to get on with my computer path in life and at times even today I use this if I have to concenterate on any task without any deviations in my work. I wanted to built something for myself which will help me save my time and stay focused on better things.
 
 This chunk of code is not more than 30 lines and it saved my day many times. 
-"WEBSITE BLOCKER" is a peice of code that I wrote to stop some sites to work during the specified time and automatically after the time limit these sites are accesible.
-What it does is it just adds few sites that you want to block and prohibit access to for the time limit you want, and after that time these sites are automatically removed from the list and you can access them after the time limit passed. And the best part is, this chunk of code runs in background as a windows process, on startup it automatically triggers.
+"WEBSITE BLOCKER" is a peice of code that I wrote to stop some sites to work during the specified time and automatically after the time limit is reached, these sites are accesible.
+What this does is, the sites that you want to block and prohibit access for a cetrain period of time are blocked by adding those to the "hosts" file of WINDOWS, and after the specified time these sites are automatically removed from the list and you can access them. And the best part is, this chunk of code runs in background as a windows process, on startup it automatically triggers. User dosnt't have to do any work.
 Thats it!!
 But as it sounds so easy, doing it took a special trick, if you go through the code you can see a neat trick that is pulled here.
 
-It is helpful and useful in ways that can multiply your work hours. And also in cases if you want to block certain sites to accessible by anyone.
+It is helpful and useful in ways that can multiply your work hours. And also in cases if you want to block certain sites from being accessed by anyone.
 
 
 In this chunk of code I have used "path" variable as a test hosts file which I have copied into project directory.
@@ -23,7 +23,7 @@ Step 1 : Fork and Clown this repo. , download the code to your machine and chang
 
 Step 2 : Add the sites which you want to block in the list given in the code.
 
-Step 3 : Getting the original hosts file in windows --> An example is shown :  "C:\Windows\System32\drivers\etc\hosts"
+Step 3 : Getting the original hosts file in windows --> An example is shown :  "C:\Windows\System32\drivers\etc\hosts" , similarly you can find the file on your computer.
 
 Step 4 : Run the code to test if it's working or not.
 
@@ -32,7 +32,7 @@ Step 5 : Now to work with this is in Windows as a background process, you need t
 -------------------------------
 Running as a background process
 -------------------------------
-Firstly, you need to rename the format of your python script to ".pyw", then you need to schedule a tast and for that you need to follow the following Steps -
+Firstly, you need to rename the format of your python script to ".pyw", then you need to schedule a task and for that you need to follow the following Steps -
 
 Step 1 :  Go to START and search for "TASK SCHEDULER" , find and click on "CREATE TASK" you will get a popup and then in GENERAL 
           section type the name you want to give to your task and Check the "RUN WITH HIGHEST PRIVILEGES" box, then move to Trigger
